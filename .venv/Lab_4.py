@@ -3,6 +3,7 @@ import math
 import turtle
 import time
 
+# Функція для множення матриць
 def multiMatrix(matrix1, matrix2):
     result = [[0 for _ in range(len(matrix1))] for _ in range(len(matrix2))]
     for i in range(len(matrix1)):
@@ -11,6 +12,7 @@ def multiMatrix(matrix1, matrix2):
                 result[i][j] += matrix1[i][k] * matrix2[k][j]
     return result
 
+# Функція для знаходження шляхів довжиною 2 у графі, представленому матрицею
 def paths2(matrix):
     pow_matrix = multiMatrix(matrix, matrix)
     for i in range(len(matrix)):
@@ -20,6 +22,7 @@ def paths2(matrix):
                     if matrix[i][k] and matrix[k][j]:
                         print(f"{i + 1} -> {k + 1} -> {j + 1}; ", end="\n")
 
+# Функція для знаходження шляхів довжиною 3 у графі, представленому матрицею
 def paths3(matrix):
     pow_matrix = multiMatrix(matrix, matrix)
     pow_matrix2 = multiMatrix(pow_matrix, matrix)
@@ -31,6 +34,7 @@ def paths3(matrix):
                         if matrix[i][k] and matrix[k][m] and matrix[m][j]:
                             print(f"{i + 1} -> {k + 1} -> {m + 1} -> {j + 1}; ", end="\n")
 
+# Функція для обчислення виходячих ступенів вершин у графі, представленому матрицею
 def calculate_out_degrees(matrix):
     out_degrees = [0] * len(matrix)
     for i in range(len(matrix)):
@@ -39,6 +43,7 @@ def calculate_out_degrees(matrix):
                 out_degrees[i] += 1
     return out_degrees
 
+# Функція для обчислення вхідних ступенів вершин у графі, представленому матрицею
 def calculate_in_degrees(matrix):
     in_degrees = [0] * len(matrix)
     for i in range(len(matrix)):
@@ -47,6 +52,7 @@ def calculate_in_degrees(matrix):
                 in_degrees[j] += 1
     return in_degrees
 
+# Функція для обчислення загальних ступенів вершин у графі, представленому матрицею
 def calculate_total_degrees(matrix, is_directed=True):
     total_degrees = [0] * len(matrix)
     for i in range(len(matrix)):
@@ -59,7 +65,7 @@ def calculate_total_degrees(matrix, is_directed=True):
                     total_degrees[i] += 1
     return total_degrees
 
-# Перевірка, чи є граф регулярним
+# Функція для перевірки, чи є граф регулярним
 def check_regular(graph):
     degrees = calculate_total_degrees(graph)
     is_regular = all(degrees[0] == d for d in degrees)
@@ -68,6 +74,7 @@ def check_regular(graph):
     else:
         return False, None
 
+# Функція для знаходження висячих вершин у графі
 def verHanging(degree):
     hanging_vertices = []
     for i in range(len(degree)):
@@ -75,6 +82,7 @@ def verHanging(degree):
             hanging_vertices.append(i)
     return hanging_vertices
 
+# Функція для знаходження ізольованих вершин у графі
 def verIsolated(degree):
     isolated_vertices = []
     for i in range(len(degree)):
@@ -82,7 +90,7 @@ def verIsolated(degree):
             isolated_vertices.append(i)
     return isolated_vertices
 
-# Генерування напрямленої матриці суміжності
+# Функція для генерування напрямленої матриці суміжності
 def calcAdir(seed, variant, k):
     random.seed(seed)
     n = 10 + variant[3]
@@ -101,7 +109,7 @@ def calcAdir(seed, variant, k):
 
     return matrix
 
-# Перетворення напрямленої матриці у ненапрямлену
+# Функція для перетворення напрямленої матриці у ненапрямлену
 def calcUndir(matrix, N):
     undir = []
     for i in range(N):
@@ -189,7 +197,7 @@ def own_line(x, y, angle, is_arrow):
     else:
         t.setheading(0)
 
-# Генерування координат точок на колі
+# Функція для генерування координат точок на колі
 def get_points_on_circle(radius, num_points, width, height):
     points = []
     angle_increment = 360 / num_points
@@ -202,7 +210,7 @@ def get_points_on_circle(radius, num_points, width, height):
 
     return points
 
-# Знаходження транзитивного замикання графу
+# Функція для знаходження транзитивного замикання графу
 def transClosure(matrix):
     n = len(matrix)
     closure = [[matrix[i][j] for j in range(n)] for i in range(n)]
@@ -212,6 +220,7 @@ def transClosure(matrix):
                 closure[i][j] |= closure[i][k] and closure[k][j]
     return closure
 
+# Функція для транспонування матриці
 def transMatrix(matrix):
     transposed = []
     for i in range(len(matrix)):
@@ -221,7 +230,7 @@ def transMatrix(matrix):
         transposed.append(row)
     return transposed
 
-
+# Функція для елементарного множення матриць
 def elemenProduct(matrix1, matrix2):
     result = []
     for i in range(len(matrix1)):
@@ -231,6 +240,7 @@ def elemenProduct(matrix1, matrix2):
         result.append(row)
     return result
 
+# Функція для знаходження сильних компонентів у графі
 def strong_components(matrix):
 
     def dfs(vertex):
@@ -250,6 +260,7 @@ def strong_components(matrix):
             components.append(component)
     return components
 
+# Функція для обчислення матриці конденсації напрямленого графу
 def condensation_matrix(matrix, components):
     num_vertices = len(components)
     condensation_matrix = [[0] * num_vertices for _ in range(num_vertices)]

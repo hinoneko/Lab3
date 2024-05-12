@@ -179,10 +179,10 @@ for row in current_matrix:
 # Налаштування вікна малювання
 turtle.setup(width=window_width, height=window_height)
 turtle.setworldcoordinates(0, 0, window_width, window_height)
-turtle.tracer(False)
 
 t = turtle.Turtle()
 t.width(line_thickness)
+t.speed(20)
 
 # Малювання ліній з'єднання графа
 for i, row in enumerate(current_matrix):

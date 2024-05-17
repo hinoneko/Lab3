@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97cf7c57-e15d-4582-ad7c-dd6fa28b0223" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="97cf7c57-e15d-4582-ad7c-dd6fa28b0223" name="Changes" comment="adding drawing speed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -13,6 +12,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager" show_ignored="true" />
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -50,10 +50,12 @@
     &quot;Python.Lab_3.executor&quot;: &quot;Run&quot;,
     &quot;Python.Lab_4.executor&quot;: &quot;Run&quot;,
     &quot;Python.Lab_5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.вар.executor&quot;: &quot;Run&quot;,
     &quot;Python.чапо.executor&quot;: &quot;Run&quot;,
     &quot;Python.яаст.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/LABS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -62,7 +64,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.Lab_3">
+  <component name="RunManager" selected="Python.Lab_5">
     <configuration name="Lab_3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Labs" />
       <option name="ENV_FILES" value="" />
@@ -134,9 +136,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Lab_5" />
         <item itemvalue="Python.Lab_3" />
         <item itemvalue="Python.Lab_4" />
-        <item itemvalue="Python.Lab_5" />
       </list>
     </recent_temporary>
   </component>
@@ -163,18 +165,73 @@
       <workItem from="1715033574809" duration="7001000" />
       <workItem from="1715084312469" duration="11549000" />
       <workItem from="1715112739852" duration="1824000" />
-      <workItem from="1715121320179" duration="3444000" />
+      <workItem from="1715121320179" duration="4814000" />
+      <workItem from="1715177425984" duration="353000" />
+      <workItem from="1715200709531" duration="1736000" />
+      <workItem from="1715202533231" duration="22000" />
+      <workItem from="1715204084303" duration="511000" />
+      <workItem from="1715433136516" duration="24331000" />
+      <workItem from="1715478099083" duration="70000" />
+      <workItem from="1715478582066" duration="262000" />
+      <workItem from="1715522818668" duration="1199000" />
+      <workItem from="1715585689936" duration="3913000" />
+      <workItem from="1715631062340" duration="3380000" />
+      <workItem from="1715892057266" duration="18489000" />
+      <workItem from="1715910726106" duration="2008000" />
+      <workItem from="1715937390494" duration="7000" />
+      <workItem from="1715946326318" duration="100000" />
+      <workItem from="1715952451677" duration="5571000" />
     </task>
+    <task id="LOCAL-00001" summary="add lab 3 file">
+      <option name="closed" value="true" />
+      <created>1715125095521</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1715125095521</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added lab 4">
+      <option name="closed" value="true" />
+      <created>1715475135418</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1715475135418</updated>
+    </task>
+    <task id="LOCAL-00003" summary="adding commits">
+      <option name="closed" value="true" />
+      <created>1715475828112</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1715475828112</updated>
+    </task>
+    <task id="LOCAL-00004" summary="adding drawing speed">
+      <option name="closed" value="true" />
+      <created>1715475922879</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1715475922879</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add lab 3 file" />
+    <MESSAGE value="Added lab 4" />
+    <MESSAGE value="adding commits" />
+    <MESSAGE value="adding drawing speed" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding drawing speed" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Labs$Lab_3.coverage" NAME="Lab_3 Coverage Results" MODIFIED="1715122981375" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.venv" />
-    <SUITE FILE_PATH="coverage/Labs$.coverage" NAME="чапо Coverage Results" MODIFIED="1715089023162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.venv" />
-    <SUITE FILE_PATH="coverage/Labs$Lab_4.coverage" NAME="Lab_4 Coverage Results" MODIFIED="1715095280010" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.venv" />
-    <SUITE FILE_PATH="coverage/Labs$Lab_5.coverage" NAME="Lab_5 Coverage Results" MODIFIED="1715094461724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.venv" />
+    <SUITE FILE_PATH="coverage/Labs$Lab_3.coverage" NAME="Lab_3 Coverage Results" MODIFIED="1715901607386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.venv" />
+    <SUITE FILE_PATH="coverage/Labs$.coverage" NAME="вар Coverage Results" MODIFIED="1715906084295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.venv" />
+    <SUITE FILE_PATH="coverage/Labs$Lab_4.coverage" NAME="Lab_4 Coverage Results" MODIFIED="1715591288270" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.venv" />
+    <SUITE FILE_PATH="coverage/Labs$Lab_5.coverage" NAME="Lab_5 Coverage Results" MODIFIED="1715957981776" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.venv" />
     <SUITE FILE_PATH="coverage/Labs$Lab_3_11111_.coverage" NAME="Lab_3(11111) Coverage Results" MODIFIED="1715013158773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.venv" />
   </component>
 </project>

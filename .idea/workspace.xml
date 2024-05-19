@@ -185,7 +185,9 @@
       <workItem from="1716016553411" duration="5731000" />
       <workItem from="1716071523342" duration="153000" />
       <workItem from="1716085171309" duration="111000" />
-      <workItem from="1716131267764" duration="2594000" />
+      <workItem from="1716131267764" duration="3099000" />
+      <workItem from="1716134557322" duration="262000" />
+      <workItem from="1716134905597" duration="266000" />
     </task>
     <task id="LOCAL-00001" summary="add lab 3 file">
       <option name="closed" value="true" />
@@ -235,7 +237,23 @@
       <option name="project" value="LOCAL" />
       <updated>1715958412856</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add changes in 5 labs">
+      <option name="closed" value="true" />
+      <created>1716134024791</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1716134024791</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add">
+      <option name="closed" value="true" />
+      <created>1716134036198</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1716134036198</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,6 +265,7 @@
     <MESSAGE value="adding commits" />
     <MESSAGE value="adding drawing speed" />
     <MESSAGE value="added lab 5" />
+    <MESSAGE value="add changes in 5 labs" />
     <MESSAGE value="add" />
     <option name="LAST_COMMIT_MESSAGE" value="add" />
   </component>

@@ -133,6 +133,7 @@ def bfs(graph, start, vertices):
     queue = [start]
     visited[start] = True
     bfs_order = []
+    bfs_tree_matrix = [[0]*len(graph) for _ in range(len(graph))]
     circle(vertices[start]['x'], vertices[start]['y'], 'dark red')
     circle_text(vertices[start]['x'], vertices[start]['y'], str(start + 1))
     while queue:
@@ -158,12 +159,13 @@ def bfs(graph, start, vertices):
                 circle(vertices[i]['x'], vertices[i]['y'], 'dark red')
                 circle_text(startPointX, startPointY, str(vertex + 1))
                 circle_text(endPointX, endPointY, str(i + 1))
+                bfs_tree_matrix[vertex][i] = 1
     t.color(line_color)
-    return bfs_order
+    return bfs_order, bfs_tree_matrix
 
 
 # Функція допоміжна для обходу в глибину
-def dfs_util(graph, vertex, visited, dfs_order, start, vertices):
+def dfs_util(graph, vertex, visited, dfs_order, start, vertices, dfs_tree_matrix):
     graph = [[1 if cell > 1 else cell for cell in row] for row in graph]
     visited[vertex] = True
     dfs_order.append(vertex)
@@ -180,23 +182,25 @@ def dfs_util(graph, vertex, visited, dfs_order, start, vertices):
                 if graph[vertex][i] == 2:
                     kef = -1
                 graph[i][vertex] = 2
-                broke_line(kef, startPointX, startPointY, endPointX, endPointY, "dark red")
+                broke_line(kef, startPointX, startPointY, endPointX, endPointY, "dark blue")
             else:
-                line(startPointX, startPointY, endPointX, endPointY, "dark red", is_arrow=True)
-            circle(vertices[i]['x'], vertices[i]['y'], 'dark red')
+                line(startPointX, startPointY, endPointX, endPointY, "dark blue", is_arrow=True)
+            circle(vertices[i]['x'], vertices[i]['y'], 'dark blue')
             circle_text(startPointX, startPointY, str(vertex + 1))
             circle_text(endPointX, endPointY, str(i + 1))
-            dfs_util(graph, i, visited, dfs_order, start, vertices)
+            dfs_tree_matrix[vertex][i] = 1
+            dfs_util(graph, i, visited, dfs_order, start, vertices, dfs_tree_matrix)
 
 
-# Функція для обходу в глибину (обгортка)
+# Функція для обходу в глибину
 def dfs(graph, start, vertices):
     visited = [False] * len(graph)
     dfs_order = []
-    circle(vertices[start]['x'], vertices[start]['y'], 'dark red')
+    dfs_tree_matrix = [[0]*len(graph) for _ in range(len(graph))]
+    circle(vertices[start]['x'], vertices[start]['y'], 'dark blue')
     circle_text(vertices[start]['x'], vertices[start]['y'], str(start + 1))
-    dfs_util(graph, start, visited, dfs_order, start, vertices)
-    return dfs_order
+    dfs_util(graph, start, visited, dfs_order, start, vertices, dfs_tree_matrix)
+    return dfs_order, dfs_tree_matrix
 
 
 # Функція для малювання графа
@@ -293,9 +297,12 @@ if current_matrix == Adir:
     t.width(line_thickness2)
 
     start_vertex = 0
-    bfs_result = bfs(current_matrix, start_vertex, vertices)
+    bfs_result, bfs_tree_matrix = bfs(current_matrix, start_vertex, vertices)
     bfs_result = [x + 1 for x in bfs_result]
-    print('BFS результат:', bfs_result)
+    print('\nBFS результат:', bfs_result)
+    print('\nBFS Tree Matrix:')
+    for row in bfs_tree_matrix:
+        print(row)
 
     keyboard.wait('w')
     t.clear()
@@ -306,8 +313,11 @@ if current_matrix == Adir:
     t.width(line_thickness2)
 
     start_vertex = 0
-    dfs_result = dfs(current_matrix, start_vertex, vertices)
+    dfs_result, dfs_tree_matrix = dfs(current_matrix, start_vertex, vertices)
     dfs_result = [x + 1 for x in dfs_result]
-    print('DFS результат:', dfs_result)
+    print('\nDFS результат:', dfs_result)
+    print('\nDFS Tree Matrix:')
+    for row in dfs_tree_matrix:
+        print(row)
 
 turtle.mainloop()

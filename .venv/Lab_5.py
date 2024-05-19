@@ -300,7 +300,7 @@ if current_matrix == Adir:
     bfs_result, bfs_tree_matrix = bfs(current_matrix, start_vertex, vertices)
     bfs_result = [x + 1 for x in bfs_result]
     print('\nBFS результат:', bfs_result)
-    print('\nBFS Tree Matrix:')
+    print('\nМатриця сумiжностi дерева обходу BFS:')
     for row in bfs_tree_matrix:
         print(row)
 
@@ -316,7 +316,7 @@ if current_matrix == Adir:
     dfs_result, dfs_tree_matrix = dfs(current_matrix, start_vertex, vertices)
     dfs_result = [x + 1 for x in dfs_result]
     print('\nDFS результат:', dfs_result)
-    print('\nDFS Tree Matrix:')
+    print('\nМатриця сумiжностi дерева обходу DFS:')
     for row in dfs_tree_matrix:
         print(row)
 

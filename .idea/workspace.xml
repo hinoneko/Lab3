@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97cf7c57-e15d-4582-ad7c-dd6fa28b0223" name="Changes" comment="adding drawing speed">
+    <list default="true" id="97cf7c57-e15d-4582-ad7c-dd6fa28b0223" name="Changes" comment="add">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/Lab_5.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Lab_5.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,14 +25,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;hinoneko&quot;
-  }
+  &quot;lastFilter&quot;: {}
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/hinoneko/Lab_3.git&quot;,
+    &quot;url&quot;: &quot;https://github.com/hinoneko/Lab3.git&quot;,
     &quot;accountId&quot;: &quot;bb9eb35f-3be2-46e9-939a-181a7562aaec&quot;
   }
 }</component>
@@ -137,8 +135,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.Lab_5" />
-        <item itemvalue="Python.Lab_3" />
         <item itemvalue="Python.Lab_4" />
+        <item itemvalue="Python.Lab_3" />
       </list>
     </recent_temporary>
   </component>
@@ -180,7 +178,14 @@
       <workItem from="1715910726106" duration="2008000" />
       <workItem from="1715937390494" duration="7000" />
       <workItem from="1715946326318" duration="100000" />
-      <workItem from="1715952451677" duration="5571000" />
+      <workItem from="1715952451677" duration="6185000" />
+      <workItem from="1715958723293" duration="730000" />
+      <workItem from="1715959481281" duration="4544000" />
+      <workItem from="1715978616660" duration="704000" />
+      <workItem from="1716016553411" duration="5731000" />
+      <workItem from="1716071523342" duration="153000" />
+      <workItem from="1716085171309" duration="111000" />
+      <workItem from="1716131267764" duration="2594000" />
     </task>
     <task id="LOCAL-00001" summary="add lab 3 file">
       <option name="closed" value="true" />
@@ -214,7 +219,23 @@
       <option name="project" value="LOCAL" />
       <updated>1715475922879</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added lab 5">
+      <option name="closed" value="true" />
+      <created>1715958387585</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1715958387585</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add">
+      <option name="closed" value="true" />
+      <created>1715958412856</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1715958412856</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -225,13 +246,15 @@
     <MESSAGE value="Added lab 4" />
     <MESSAGE value="adding commits" />
     <MESSAGE value="adding drawing speed" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding drawing speed" />
+    <MESSAGE value="added lab 5" />
+    <MESSAGE value="add" />
+    <option name="LAST_COMMIT_MESSAGE" value="add" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Labs$Lab_3.coverage" NAME="Lab_3 Coverage Results" MODIFIED="1715901607386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.venv" />
     <SUITE FILE_PATH="coverage/Labs$.coverage" NAME="вар Coverage Results" MODIFIED="1715906084295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.venv" />
-    <SUITE FILE_PATH="coverage/Labs$Lab_4.coverage" NAME="Lab_4 Coverage Results" MODIFIED="1715591288270" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.venv" />
-    <SUITE FILE_PATH="coverage/Labs$Lab_5.coverage" NAME="Lab_5 Coverage Results" MODIFIED="1715957981776" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.venv" />
+    <SUITE FILE_PATH="coverage/Labs$Lab_4.coverage" NAME="Lab_4 Coverage Results" MODIFIED="1716071635449" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.venv" />
+    <SUITE FILE_PATH="coverage/Labs$Lab_5.coverage" NAME="Lab_5 Coverage Results" MODIFIED="1716133455202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.venv" />
     <SUITE FILE_PATH="coverage/Labs$Lab_3_11111_.coverage" NAME="Lab_3(11111) Coverage Results" MODIFIED="1715013158773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.venv" />
   </component>
 </project>

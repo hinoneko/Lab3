@@ -6,6 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="97cf7c57-e15d-4582-ad7c-dd6fa28b0223" name="Changes" comment="add">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/Lab_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lab_3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/Lab_4.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lab_4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/Lab_5.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lab_5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/Lab_6.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lab_6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/pyvenv.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/pyvenv.cfg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,8 +82,8 @@
       <recent name="C:\Users\sense\PycharmProjects\Labs" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Lab_6">
-    <configuration name="ворон" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.client (1)">
+    <configuration name="кус" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Labs" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -91,7 +97,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/.venv/ворон.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/.venv/кус.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -114,30 +120,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/.venv/Lab_6.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="кус" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Labs" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.venv" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/.venv/кус.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\sense\PycharmProjects\Labs\Lab_6.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -194,10 +177,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Lab_6" />
-        <item itemvalue="Python.ворон" />
         <item itemvalue="Python.client (1)" />
         <item itemvalue="Python.server (1)" />
+        <item itemvalue="Python.Lab_6" />
       </list>
     </recent_temporary>
   </component>
@@ -260,7 +242,15 @@
       <workItem from="1716328593397" duration="7679000" />
       <workItem from="1716391260074" duration="9780000" />
       <workItem from="1716413503191" duration="187000" />
-      <workItem from="1716464098816" duration="1300000" />
+      <workItem from="1716464098816" duration="1441000" />
+      <workItem from="1716486912963" duration="188000" />
+      <workItem from="1716496531149" duration="70000" />
+      <workItem from="1716551425798" duration="5996000" />
+      <workItem from="1716558312566" duration="1209000" />
+      <workItem from="1716559912119" duration="41000" />
+      <workItem from="1716774617611" duration="21000" />
+      <workItem from="1716798314895" duration="23000" />
+      <workItem from="1717361310799" duration="273000" />
     </task>
     <task id="LOCAL-00001" summary="add lab 3 file">
       <option name="closed" value="true" />
@@ -342,7 +332,23 @@
       <option name="project" value="LOCAL" />
       <updated>1716135405791</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add 6 lab">
+      <option name="closed" value="true" />
+      <created>1716465514343</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1716465514343</updated>
+    </task>
+    <task id="LOCAL-00012" summary="add">
+      <option name="closed" value="true" />
+      <created>1716465524923</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1716465524923</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -355,18 +361,19 @@
     <MESSAGE value="adding drawing speed" />
     <MESSAGE value="added lab 5" />
     <MESSAGE value="add changes in 5 labs" />
+    <MESSAGE value="add 6 lab" />
     <MESSAGE value="add" />
     <option name="LAST_COMMIT_MESSAGE" value="add" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Labs$Lab_3.coverage" NAME="Lab_3 Coverage Results" MODIFIED="1715901607386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.venv" />
-    <SUITE FILE_PATH="coverage/Labs$server__1_.coverage" NAME="server (1) Coverage Results" MODIFIED="1716299328356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.venv" />
     <SUITE FILE_PATH="coverage/Labs$.coverage" NAME="кус Coverage Results" MODIFIED="1716399647119" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.venv" />
-    <SUITE FILE_PATH="coverage/Labs$Lab_6.coverage" NAME="Lab_6 Coverage Results" MODIFIED="1716465291475" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.venv" />
+    <SUITE FILE_PATH="coverage/Labs$server__1_.coverage" NAME="server (1) Coverage Results" MODIFIED="1716559416823" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.venv" />
+    <SUITE FILE_PATH="coverage/Labs$Lab_6.coverage" NAME="Lab_6 Coverage Results" MODIFIED="1716465435940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.venv" />
     <SUITE FILE_PATH="coverage/Labs$lflsgdrsgkodsrgbsr.coverage" NAME="lflsgdrsgkodsrgbsr Coverage Results" MODIFIED="1716155562608" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.venv" />
     <SUITE FILE_PATH="coverage/Labs$Lab_4.coverage" NAME="Lab_4 Coverage Results" MODIFIED="1716071635449" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.venv" />
     <SUITE FILE_PATH="coverage/Labs$Lab_5.coverage" NAME="Lab_5 Coverage Results" MODIFIED="1716201876017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.venv" />
-    <SUITE FILE_PATH="coverage/Labs$client__1_.coverage" NAME="client (1) Coverage Results" MODIFIED="1716299340677" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.venv" />
+    <SUITE FILE_PATH="coverage/Labs$client__1_.coverage" NAME="client (1) Coverage Results" MODIFIED="1716559425886" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.venv" />
     <SUITE FILE_PATH="coverage/Labs$Lab_3_11111_.coverage" NAME="Lab_3(11111) Coverage Results" MODIFIED="1715013158773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.venv" />
     <SUITE FILE_PATH="coverage/Labs$mfmf.coverage" NAME="mfmf Coverage Results" MODIFIED="1716162958982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.venv" />
   </component>

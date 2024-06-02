@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97cf7c57-e15d-4582-ad7c-dd6fa28b0223" name="Changes" comment="add">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lab_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lab_3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lab_4.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lab_4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lab_5.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lab_5.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lab_6.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lab_6.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/pyvenv.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/pyvenv.cfg" afterDir="false" />
-    </list>
+    <list default="true" id="97cf7c57-e15d-4582-ad7c-dd6fa28b0223" name="Changes" comment="removed from directory" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -250,7 +242,7 @@
       <workItem from="1716559912119" duration="41000" />
       <workItem from="1716774617611" duration="21000" />
       <workItem from="1716798314895" duration="23000" />
-      <workItem from="1717361310799" duration="273000" />
+      <workItem from="1717361310799" duration="722000" />
     </task>
     <task id="LOCAL-00001" summary="add lab 3 file">
       <option name="closed" value="true" />
@@ -348,7 +340,23 @@
       <option name="project" value="LOCAL" />
       <updated>1716465524923</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="removed from directory">
+      <option name="closed" value="true" />
+      <created>1717361758103</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1717361758103</updated>
+    </task>
+    <task id="LOCAL-00014" summary="removed from directory">
+      <option name="closed" value="true" />
+      <created>1717361880841</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1717361880841</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -363,7 +371,8 @@
     <MESSAGE value="add changes in 5 labs" />
     <MESSAGE value="add 6 lab" />
     <MESSAGE value="add" />
-    <option name="LAST_COMMIT_MESSAGE" value="add" />
+    <MESSAGE value="removed from directory" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed from directory" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Labs$Lab_3.coverage" NAME="Lab_3 Coverage Results" MODIFIED="1715901607386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.venv" />
